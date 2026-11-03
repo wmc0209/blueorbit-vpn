@@ -11,7 +11,7 @@
 ## 安装
 
 适用于 **Ubuntu 24.04、64 位 x86（amd64）**，使用 systemd、systemd-resolved 与 GNOME 桌面。
-下载 `blueorbit-vpn_1.0.0_amd64.deb`，然后在下载目录执行：
+从 [V1.0 发布页面](https://github.com/wmc0209/blueorbit-vpn/releases/tag/v1.0.0)下载 `blueorbit-vpn_1.0.0_amd64.deb`，然后在下载目录执行：
 
 ```sh
 sudo apt install ./blueorbit-vpn_1.0.0_amd64.deb
@@ -35,6 +35,8 @@ sudo apt install ./blueorbit-vpn_1.0.0_amd64.deb
 - 智能分流使用随程序附带的规则快照，**不会自动更新**，少数网站可能被误判。
 
 ## 从源码构建
+
+完整源码位于 [V1.0 发布页面的 blueorbit-vpn_1.0.0_source.zip](https://github.com/wmc0209/blueorbit-vpn/releases/download/v1.0.0/blueorbit-vpn_1.0.0_source.zip)；仓库页面和 GitHub 自动生成的源码压缩包目前只包含项目说明文件。下载并解压完整源码，进入解压后的目录。
 
 需要 Python 3、`dpkg-deb` 和联网访问 GitHub：
 
